@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PetrolCalculatorClasses {
+public class PetrolCalculator {
     public void calculate() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите количество действий => ");
@@ -21,7 +21,7 @@ public class PetrolCalculatorClasses {
     }
 
     public static void main(String[] args) {
-		System.out.println("Введённые аргументы:" + args);
-        new PetrolCalculatorClasses().calculate();
+/*		System.out.println("Введённые аргументы:" + args);*/
+        new PetrolCalculator().calculate();
     }
 }
